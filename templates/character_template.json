@@ -1,0 +1,25 @@
+{
+  "id": "",
+  "name": "",
+  "aliases": [],
+  "role": "",
+  "physical_description": {
+    "appearance": "",
+    "distinctive_features": [],
+    "clothing_style": "",
+    "age": "",
+    "height": "",
+    "build": ""
+  },
+  "personality": {
+    "traits": [],
+    "motivations": "",
+    "fears": "",
+    "quirks": []
+  },
+  "background": "",
+  "relationships": [],
+  "reference_images": [],
+  "prompt_keywords": [],
+  "notes": ""
+}
