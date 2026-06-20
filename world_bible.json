@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "title": "Child of the Whispering Veil - World Bible",
+    "version": "1.0.0",
+    "created": "2026-03-21T08:22:00-04:00",
+    "last_updated": "2026-03-21T12:27:00.119701",
+    "description": "World Bible for Imaria - a realm woven from the subconscious of Elara, a 9-year-old girl. Contains characters, locations, lore, and style guidelines for consistent story and image generation."
+  },
+  "style_bible": {
+    "art_direction": {
+      "primary_style": "digital fantasy art, semi-realistic illustration",
+      "secondary_styles": [
+        "concept art",
+        "children's book illustration",
+        "atmospheric fantasy"
+      ],
+      "influences": [
+        "Studio Ghibli",
+        "Brian Froud",
+        "Disney Renaissance",
+        "Jim Henson's Dark Crystal"
+      ],
+      "mood": "whimsical yet emotionally resonant, balancing wonder with melancholy",
+      "themes": [
+        "light vs darkness",
+        "childhood imagination",
+        "grief and healing",
+        "nature's magic",
+        "duality of worlds"
+      ]
+    },
+    "lighting": {
+      "primary_lighting": "bioluminescent glow, ethereal light sources, dramatic contrast between light and shadow",
+      "time_of_day_preference": "twilight, dusk, moonlit nights",
+      "shadow_style": "soft, mysterious shadows with hints of hidden depth",
+      "atmosphere": "magical, dreamlike, emotionally charged"
+    },
+    "color_palette": {
+      "primary_colors": [
+        "deep forest green",
+        "midnight blue",
+        "starlight silver/white"
+      ],
+      "secondary_colors": [
+        "amber gold",
+        "moss green",
+        "twilight purple"
+      ],
+      "accent_colors": [
+        "bioluminescent cyan",
+        "warm amber",
+        "crystalline pink"
+      ],
+      "color_mood": "enchanted forest with warm nostalgic highlights against cool mysterious shadows",
+      "palette_description": "A dual palette: Whisperwood features luminous greens, silvers, and warm amber starlight; Gloomhaven features muted purples, grays, and cold blues with eerie fungal glows"
+    },
+    "visual_references": {
+      "reference_images": [],
+      "style_keywords": [
+        "fantasy illustration",
+        "bioluminescent",
+        "ethereal",
+        "magical realism",
+        "dreamlike",
+        "atmospheric",
+        "detailed",
+        "cinematic lighting",
+        "whimsical",
+        "emotional depth"
+      ],
+      "negative_keywords": [
+        "photorealistic",
+        "gritty",
+        "horror",
+        "violent",
+        "modern technology",
+        "urban",
+        "harsh lighting",
+        "flat colors"
+      ]
+    }
+  },
+  "characters": [
+    {
+      "id": "char_lyra_elara",
+      "name": "Lyra (Elara's Dream Persona)",
+      "aliases": [
+        "Lyra",
+        "Guardian of the Whisperwood",
+        "Elara's dream self"
+      ],
+      "role": "protagonist",
+      "physical_description": {
+        "appearance": "A 16-year-old forest guardian with an ethereal, otherworldly beauty. Antler-like branches grow from her hair, intertwining with flowing locks. Her eyes hold the light of stars.",
+        "distinctive_features": [
+          "Antler-like branches growing from hair",
+          "Cloak of moth wings",
+          "Eyes that shimmer like starlight",
+          "Luminar staff forged from Starlight"
+        ],
+        "clothing_style": "Cloak made of moth wings that shimmers with iridescent colors, forest-dwelling attire woven from natural materials",
+        "age": "16 (dream age), 9 (real-world Elara)",
+        "height": "Average height, graceful presence",
+        "build": "Slender, agile, graceful"
+      },
+      "personality": {
+        "traits": [
+          "brave",
+          "protective",
+          "imaginative",
+          "resilient",
+          "compassionate",
+          "curious"
+        ],
+        "motivations": "Protect the Whisperwood and its inhabitants; help Elara process grief and anxiety; maintain the balance between light and darkness",
+        "fears": "Forgetting her purpose; failing to protect the forest; Elara losing her imagination forever",
+        "quirks": [
+          "Speaks to trees through Thought-Vines",
+          "Collects memories in the Memory Well",
+          "Hums melodies from Elara's waking life"
+        ]
+      },
+      "background": "Lyra is the dream manifestation of 9-year-old Elara's imagination and emotional resilience. When Elara sleeps, she becomes Lyra, the Guardian of the Whisperwood. If Lyra dies in Imaria, Elara forgets her daydreams forever.",
+      "relationships": [
+        {
+          "name": "Thaliss",
+          "relationship": "Mentor and guide"
+        },
+        {
+          "name": "Elara",
+          "relationship": "Dream self of the waking child"
+        },
+        {
+          "name": "Moonhounds",
+          "relationship": "Protectors and companions"
+        },
+        {
+          "name": "King Vorlag",
+          "relationship": "Antagonist, enemy of Starlight"
+        }
+      ],
+      "reference_images": [],
+      "prompt_keywords": [
+        "young woman",
+        "antler branches in hair",
+        "moth wing cloak",
+        "ethereal beauty",
+        "forest guardian",
+        "staff of light",
+        "starlight eyes",
+        "fantasy heroine",
+        "bioluminescent forest background"
+      ],
+      "notes": "Lyra's power is directly tied to Elara's emotional state. When Elara is happy, Lyra is strong. When Elara struggles, Lyra weakens."
+    },
+    {
+      "id": "char_thaliss",
+      "name": "Thaliss the Elder Tree",
+      "aliases": [
+        "Thaliss",
+        "The Elder Tree",
+        "Grandfather Tree"
+      ],
+      "role": "supporting",
+      "physical_description": {
+        "appearance": "A massive, ancient oak tree with a wise face carved into its trunk. Bark worn smooth by centuries, leaves that shimmer with hints of gold and silver.",
+        "distinctive_features": [
+          "Sentient face carved into trunk",
+          "Ancient bark etched with symbols",
+          "Leaves that glow faintly",
+          "Roots that extend deep into the Whisperwood"
+        ],
+        "clothing_style": "N/A - is a tree",
+        "age": "Centuries old",
+        "height": "Towering, ancient oak",
+        "build": "Massive, rooted, enduring"
+      },
+      "personality": {
+        "traits": [
+          "wise",
+          "patient",
+          "protective",
+          "mysterious",
+          "nurturing",
+          "ancient"
+        ],
+        "motivations": "Guide Lyra in her quest; protect the Whisperwood; preserve the memory of Elara's grandfather",
+        "fears": "The forest falling to darkness; Lyra losing her way; being forgotten",
+        "quirks": [
+          "Speaks in riddles and ancient wisdom",
+          "Leaves rustle with emotions",
+          "Roots tap messages through the earth"
+        ]
+      },
+      "background": "Thaliss is secretly the living memory of Elara's deceased grandfather. He serves as Lyra's mentor, hiding this truth while guiding her through the challenges of the Starlight War.",
+      "relationships": [
+        {
+          "name": "Lyra",
+          "relationship": "Mentor and protector"
+        },
+        {
+          "name": "Elara's grandfather",
+          "relationship": "Is his living memory"
+        },
+        {
+          "name": "Whisperwood",
+          "relationship": "Guardian and heart of the forest"
+        }
+      ],
+      "reference_images": [],
+      "prompt_keywords": [
+        "ancient oak tree",
+        "wise face in bark",
+        "glowing leaves",
+        "fantasy tree",
+        "talking tree",
+        "magical forest",
+        "ethereal light",
+        "mystical guardian"
+      ],
+      "notes": "Thaliss represents the wisdom of previous generations of dreamers. His true identity as Elara's grandfather's memory is a key plot reveal."
+    },
+    {
+      "id": "char_king_vorlag",
+      "name": "King Vorlag",
+      "aliases": [
+        "Vorlag",
+        "The Gloom King",
+        "Lord of Gloomhaven"
+      ],
+      "role": "antagonist",
+      "physical_description": {
+        "appearance": "A towering Gloom warlord with a crown of fused Numbshards. His form shifts between solid shadow and vaguely humanoid shape. Eyes that burn with cold, hungry light.",
+        "distinctive_features": [
+          "Crown of fused Numbshards",
+          "Shifting shadow form",
+          "Cold burning eyes",
+          "Towering presence",
+          "Crystalline armor made of Numbshards"
+        ],
+        "clothing_style": "Armor crafted from Numbshards, crown of fused emotional stones",
+        "age": "Born from Elara's accumulated fears",
+        "height": "Towering, larger than life",
+        "build": "Imposing, shadowy, crystalline"
+      },
+      "personality": {
+        "traits": [
+          "calculating",
+          "fearful",
+          "protective of his people",
+          "misguided",
+          "tragic",
+          "determined"
+        ],
+        "motivations": "Extinguish Starlight to 'protect' his people; gain power through Numbshards; escape the darkness of Gloomhaven",
+        "fears": "Starlight destroying his people; being trapped in eternal stagnation; Elara confronting her fears",
+        "quirks": [
+          "Speaks in echoes and whispers",
+          "Collects Numbshards obsessively",
+          "Cannot touch Starlight directly"
+        ]
+      },
+      "background": "King Vorlag is a Gloom born from Elara's accumulated fears. He leads the raids on the surface to hoard Starlight, not realizing that destroying it would trap his people in eternal stagnation. He is a tragic antagonist - protecting his people through misguided means.",
+      "relationships": [
+        {
+          "name": "Glooms",
+          "relationship": "King and protector"
+        },
+        {
+          "name": "Lyra",
+          "relationship": "Enemy, defender of Starlight"
+        },
+        {
+          "name": "Elara",
+          "relationship": "Born from her fears"
+        }
+      ],
+      "reference_images": [],
+      "prompt_keywords": [
+        "shadow king",
+        "crown of crystals",
+        "numbshard armor",
+        "towering darkness",
+        "cold burning eyes",
+        "shifting shadow form",
+        "fantasy villain",
+        "underground realm",
+        "tragic antagonist"
+      ],
+      "notes": "Vorlag is a sympathetic villain - he genuinely believes he's protecting his people. His defeat comes from understanding, not just combat."
+    },
+    {
+      "id": "char_elara",
+      "name": "Elara",
+      "aliases": [
+        "Elara",
+        "The Dreamer",
+        "The Child"
+      ],
+      "role": "protagonist",
+      "physical_description": {
+        "appearance": "A 9-year-old girl with an imaginative, wistful expression. Often lost in thought, with eyes that seem to see beyond the physical world.",
+        "distinctive_features": [
+          "Star pendant from her father",
+          "Distant, dreaming expression",
+          "Small hands that reach for the stars"
+        ],
+        "clothing_style": "Simple childhood clothes, often with a star pendant necklace",
+        "age": "9 years old",
+        "height": "Small for her age",
+        "build": "Petite, delicate"
+      },
+      "personality": {
+        "traits": [
+          "imaginative",
+          "sensitive",
+          "anxious",
+          "creative",
+          "loving",
+          "resilient"
+        ],
+        "motivations": "Escape into daydreams; process her father's illness; find emotional strength; protect her inner world",
+        "fears": "Losing her father; forgetting her dreams; being consumed by fear; school bullies",
+        "quirks": [
+          "Stargazes when stressed",
+          "Talks to imaginary friends",
+          "Collects small mementos",
+          "Draws her dreams"
+        ]
+      },
+      "background": "Elara is a 9-year-old girl who escapes into daydreams to cope with her father's illness and other life struggles. When she sleeps, she becomes Lyra in Imaria. Her real-world emotions directly affect the dream world - joy creates Starlight, fear creates Glooms.",
+      "relationships": [
+        {
+          "name": "Lyra",
+          "relationship": "Her dream persona"
+        },
+        {
+          "name": "Father",
+          "relationship": "Deeply loves, fears losing him"
+        },
+        {
+          "name": "Thaliss",
+          "relationship": "Unknowingly her grandfather's memory"
+        },
+        {
+          "name": "King Vorlag",
+          "relationship": "Born from her fears"
+        }
+      ],
+      "reference_images": [],
+      "prompt_keywords": [
+        "9 year old girl",
+        "dreamy expression",
+        "star pendant",
+        "wistful",
+        "childhood innocence",
+        "imagination",
+        "small frame",
+        "looking at stars",
+        "nostalgic lighting"
+      ],
+      "notes": "Elara is the emotional core of the story. Her real-world struggles (father's illness, school bullies) manifest as challenges in Imaria."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_whisperwood",
+      "name": "Whisperwood",
+      "type": "nature",
+      "description": "A mystical forest where trees communicate through Thought-Vines and glow with bioluminescent moss. The heart of Imaria, protected by Lyra. Home to Moonhounds and Whispervoles.",
+      "atmosphere": "Enchanted, peaceful, alive with soft whispers and gentle light. A sanctuary of wonder and magic.",
+      "key_features": [
+        "Bioluminescent moss",
+        "Thought-Vines for communication",
+        "Ancient trees with faces",
+        "Memory Well hidden within",
+        "Starlight crystals embedded in bark"
+      ],
+      "lighting_notes": "Soft bioluminescent glow from moss and plants. Starlight crystals provide ethereal illumination. Twilight ambiance with dappled light through leaves.",
+      "color_notes": "Deep forest greens, luminous cyans and teals from bioluminescence, silver-white Starlight, warm amber accents from Memory Well.",
+      "reference_images": [],
+      "prompt_keywords": [
+        "enchanted forest",
+        "bioluminescent",
+        "glowing trees",
+        "magical woodland",
+        "ethereal light",
+        "moss-covered",
+        "ancient trees",
+        "fantasy landscape",
+        "whimsical",
+        "mystical"
+      ],
+      "connected_locations": [
+        "loc_memory_well",
+        "loc_gloomhaven"
+      ],
+      "notes": "The Whisperwood's health depends on Starlight. When Elara loses joy, the forest dims. Trees can communicate through Thought-Vines."
+    },
+    {
+      "id": "loc_gloomhaven",
+      "name": "Gloomhaven",
+      "type": "city",
+      "description": "A labyrinthine subterranean city beneath the Whisperwood, lit by eerie fungal growths. Home to the Glooms - shadow beings born from Elara's fears. They mine Numbshards and crave Starlight.",
+      "atmosphere": "Oppressive, mysterious, melancholic. A place of shadows and echoes, where emotions are dulled and light is foreign.",
+      "key_features": [
+        "Labyrinthine tunnels",
+        "Eerie fungal lighting",
+        "Numbshard mines",
+        "Crystalline structures",
+        "Shadow-dwelling inhabitants"
+      ],
+      "lighting_notes": "Dim, eerie fungal glow in purples and grays. Cold, muted light. Shadows seem alive and moving. No natural light.",
+      "color_notes": "Muted purples, cold grays, sickly fungal greens, deep blacks. Stark contrast to Whisperwood's warmth.",
+      "reference_images": [],
+      "prompt_keywords": [
+        "underground city",
+        "cavern",
+        "fungal glow",
+        "shadow realm",
+        "labyrinthine",
+        "oppressive",
+        "dark fantasy",
+        "crystalline structures",
+        "eerie",
+        "melancholic"
+      ],
+      "connected_locations": [
+        "loc_whisperwood"
+      ],
+      "notes": "Glooms are born from Elara's fears. They mine Numbshards - stones that dull emotions. Starlight is toxic to them but vital to the forest above."
+    },
+    {
+      "id": "loc_memory_well",
+      "name": "The Memory Well",
+      "type": "nature",
+      "description": "A hidden spring in the Whisperwood where Lyra can deposit Elara's cherished memories to create new Starlight. The most sacred place in the forest.",
+      "atmosphere": "Sacred, peaceful, emotionally resonant. A place of quiet reflection and transformation.",
+      "key_features": [
+        "Crystal-clear spring",
+        "Surrounding ancient stones",
+        "Starlight crystallization",
+        "Memory preservation",
+        "Transformation pool"
+      ],
+      "lighting_notes": "Warm, golden light emanating from within. Starlight crystallizes here, creating brilliant points of light. Peaceful, nostalgic glow.",
+      "color_notes": "Warm amber gold, crystalline white, soft greens from surrounding forest. The light here is the warmest in all of Whisperwood.",
+      "reference_images": [],
+      "prompt_keywords": [
+        "sacred spring",
+        "crystal clear water",
+        "golden light",
+        "memory pool",
+        "ancient stones",
+        "starlight crystals",
+        "peaceful clearing",
+        "magical transformation",
+        "nostalgic glow"
+      ],
+      "connected_locations": [
+        "loc_whisperwood"
+      ],
+      "notes": "This is where Elara's cherished memories (like her father's laughter) become Starlight. It represents the power of positive emotions to fuel imagination."
+    }
+  ],
+  "objects": [],
+  "lore": {
+    "history": "Imaria is a realm woven from the subconscious of Elara, a 9-year-old girl who escapes into daydreams. When she sleeps, she becomes Lyra, the Guardian of the Whisperwood. The world is built from generations of dreamers, and Elara's choices will shape it for the next child who dreams here.",
+    "rules": [
+      "Starlight is crystallized energy from Elara's real-world joy - it powers the Whisperwood",
+      "Glooms are born from Elara's suppressed fears - confronting them weakens their hold",
+      "If Lyra dies in Imaria, Elara forgets her daydreams forever",
+      "Real-world actions affect Imaria - losing a memento causes Starlight to fade",
+      "The Memory Well converts cherished memories into new Starlight",
+      "Numbshards dull emotions - they are mined by Glooms and used as weapons",
+      "Thought-Vines allow communication with trees in the Whisperwood"
+    ],
+    "terminology": {
+      "Starlight": "Crystallized energy from Elara's joy; vital to Whisperwood's survival; toxic to Glooms",
+      "Numbshards": "Stones that dull emotions; mined by Glooms; used in King Vorlag's crown and armor",
+      "Thought-Vines": "Magical vines that allow Lyra to hear trees' thoughts by touching them",
+      "Glooms": "Shadow beings born from Elara's fears; inhabitants of Gloomhaven",
+      "Moonhounds": "Wolf-like protectors with constellations etched in their fur; guardians of Whisperwood",
+      "Whispervoles": "Tiny messengers who carry fragments of dreams",
+      "The Veil": "The barrier between Elara's waking world and Imaria",
+      "Luminar": "Lyra's staff forged from Starlight; her primary weapon and tool"
+    },
+    "creatures": [
+      {
+        "name": "Moonhounds",
+        "description": "Wolf-like protectors with constellations etched into their fur. They guard the Whisperwood and assist Lyra.",
+        "role": "Protectors of the forest"
+      },
+      {
+        "name": "Whispervoles",
+        "description": "Tiny messengers who carry fragments of dreams between locations.",
+        "role": "Messengers and information carriers"
+      },
+      {
+        "name": "Glooms",
+        "description": "Shadow beings born from Elara's fears. They dwell in Gloomhaven and crave Starlight.",
+        "role": "Antagonists, raiders of the surface"
+      }
+    ],
+    "themes": [
+      {
+        "name": "Balance",
+        "description": "Light (creativity) vs. darkness (fear) must coexist. Neither can be fully extinguished."
+      },
+      {
+        "name": "Growth",
+        "description": "Elara's journey to process grief and anxiety strengthens Lyra's power."
+      },
+      {
+        "name": "Legacy",
+        "description": "The Whisperwood is built from generations of dreamers; Elara's choices shape it for future children."
+      }
+    ]
+  },
+  "master_prompt_template": {
+    "image_generation": {
+      "base_template": "{style_prefix}, {character_description}, {location_description}, {scene_action}, {mood_atmosphere}, {quality_tags}",
+      "style_prefix": "digital fantasy art, semi-realistic illustration, bioluminescent, ethereal, atmospheric, magical realism",
+      "quality_tags": "highly detailed, cinematic lighting, emotional depth, professional concept art, 4k",
+      "negative_prompt": "photorealistic, gritty, horror, violent, modern technology, urban, harsh lighting, flat colors, blurry, low quality"
+    },
+    "story_generation": {
+      "base_template": "Write a {tone} scene set in {location} featuring {characters}. The scene should explore {theme} and advance the {conflict}.",
+      "narrative_voice": "Third-person limited, alternating between Lyra's perspective in Imaria and Elara's perspective in the waking world. Tone should balance wonder with emotional depth.",
+      "pacing_guidelines": "Alternate between moments of quiet wonder and tense action. Allow space for emotional reflection. Build tension through the connection between Elara's real-world struggles and Lyra's challenges."
+    }
+  }
+}
